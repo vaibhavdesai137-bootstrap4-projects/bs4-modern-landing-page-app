@@ -16,60 +16,228 @@
 
 <body>
 
-    <div class="navbar-collapse collapse inverse" id="navbar-header">
-        <div class="container-fluid">
-            <div class="about">
-                <h4>About</h4>
-                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-            </div>
-            <div class="social">
-                <h4>Contact</h4>
-                <ul class="list-unstyled">
-                    <li><a href="#">Follow on Twitter</a></li>
-                    <li><a href="#">Like on Facebook</a></li>
-                    <li><a href="#">Email me</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="navbar navbar-static-top navbar-dark bg-inverse">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header">
+    <section class="section-navbar">
+        <nav class="navbar navbar-light bg-faded navbar-fixed-top">
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="startupNavbar">
                 &#9776;
             </button>
-            <a href="#" class="navbar-brand">CrazyBand</a>
-        </div>
-    </div>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height="26"></a>
+            <div class="collapse navbar-toggleable-xs" id="startupNavbar">
+                <ul class="nav navbar-nav pull-sm-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary btn-sm">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
 
-    <section class="jumbotron text-xs-center">
-        <div class="container">
-            <h1 class="jumbotron-heading">CrazyBand Musicians</h1>
-            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-            <div>
-                <a href="#" class="btn btn-info">Main call to action</a>
-                <a href="#" class="btn btn-secondary">Secondary action</a>
+    <section class="section-stage">
+        <div class="transparent-div">
+            <div class="stage-caption">
+                <h1 class="display-3">Modern Site.<br/>Bootstrap v4 Baby!!!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae alias necessitatibus perferendis laborum inventore, ducimus soluta! Dolore enim asperiores ipsum, vero ullam minima in iure harum veritatis quod libero sunt.</p>
+                <a href="#" class="btn btn-success">Sign Up Now</a>
             </div>
         </div>
     </section>
 
-    <div class="album text-muted">
+    <section id="feature-1">
         <div class="container">
             <div class="row">
-                <div class="card">
-                    <img src="img/guitar.jpg">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card">
-                    <img src="img/lady-guitar.jpg">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card">
-                    <img src="img/mic.jpg">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="feature-content">
+                    <div class="col-sm-6">
+                        <iframe width="100%" height="315" src="http://www.youtube.com/embed/7yr_we6IvyU">
+                        </iframe>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-1">
+                        <h6>Watch This.</h6>
+                        <h2>This Will Make You Go Nuts</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nisi voluptatem aliquam repellat delectus. Quo architecto minus eaque voluptatum, veniam tenetur sit, quas! Sequi architecto aut non, eum, fugiat aliquid!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nisi voluptatem aliquam repellat delectus. Quo architecto minus eaque voluptatum, veniam tenetur sit, quas! Sequi architecto aut non, eum, fugiat aliquid!</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="feature-2" class="feature-dark">
+        <div class="container">
+            <div class="row">
+                <div class="feature-content">
+                    <div class="col-lg-6 feature-caption">
+                        <h6>Incredible Feature.</h6>
+                        <h2>This Will Make You Go Nuts</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nisi voluptatem aliquam repellat delectus. Quo architecto minus eaque voluptatum, veniam tenetur sit, quas! Sequi architecto aut non, eum, fugiat aliquid!</p>
+                        <a href="" class="btn btn-secondary-outline btn-lg">Get In On The Action</a>
+                    </div>
+                    <div class="col-lg-6 text-sm-center hidden-md-down">
+                        <img src="img/iphone-1.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feature-3">
+        <div class="container">
+            <div class="row">
+                <div class="feature-content">
+                    <div class="col-lg-6 hidden-md-down">
+                        <img src="img/macbook.png" alt="">
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-1">
+                        <h6>The Wow Factor.</h6>
+                        <h2>This is the best company you can ever dream of working with. Period.</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nisi voluptatem aliquam repellat delectus. Quo architecto minus eaque voluptatum, veniam tenetur sit, quas! Sequi architecto aut non, eum, fugiat aliquid!</p>
+                        <button class="btn btn-primary-outline">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feature-4">
+        <div class="container">
+            <div class="row">
+                <div class="feature-content">
+                    <div class="col-lg-6">
+                        <h6>Kudos</h6>
+                        <blockquote class="blockquote">
+                            &ldquo;This guy is awesome&rdquo;
+                            <footer class="blockquote-footer">
+                                Herlock Solmes, <cite>some guy at a bar</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-6 hidden-md-down">
+                        <img src="img/brad-elvis.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feature-5">
+        <div class="container">
+            <div class="row">
+                <div class="feature-content">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        <h6>Fully Loaded</h6>
+                        <h2>Another set of features to tatally fall for. Buy it Now!!!</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quod eius quo aspernatur non perspiciatis maiores officiis nulla minus eaque. Molestiae in, magnam aut dolores adipisci aliquid totam illo corporis!</p>
+                        <h6>This is all you get:</h6>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>Feature One</li>
+                                    <li>Feature Two</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>Feature Three</li>
+                                    <li>Feature Four</li>
+                                </ul>
+                            </div>
+                            <div class="hidden-md-down">
+                                <img src="img/macbook-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feature-6" class="feature-dark">
+        <div class="container">
+            <div class="row">
+                <div class="feature-content">
+                    <div class="col-lg-6 hidden-md-down">
+                        <img src="img/ipad.png" alt="">
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-1">
+                        <h6>The All-In-One Solution</h6>
+                        <h2>Another totally BS section just for funzies</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nisi voluptatem aliquam repellat delectus. Quo architecto minus eaque voluptatum, veniam tenetur sit, quas! Sequi architecto aut non, eum, fugiat aliquid!</p>
+                        <button class="btn btn-secondary-outline">Awesome Right?</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feature-7">
+        <div class="container">
+            <div class="row">
+                <div class="feature-content">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        <h6>Show me the monies</h6>
+                        <h2>You will never see your money back again. We will spend it all on beer and pizza.</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nisi voluptatem aliquam repellat delectus. Quo architecto minus eaque voluptatum, veniam tenetur sit, quas! Sequi architecto aut non, eum, fugiat aliquid!</p>
+                        <button class="btn btn-success-outline">Make Us Rich Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- This should be a 'footer' and not a 'section' but  have my own custom footer -->
+    <!-- Since the CSS would conflict, I am calling this a section -->
+    <section id="siteFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    &copy; 2016
+                    <br/> I am loving Bootstrap v4. Freaking awesome!
+                    <br/>
+                    <i class="fa fa-beer"></i> Thank You <a href="http://www.bradhussey.ca/" target="_blank">Brad Hussey</a> for the Udemy course
+                    <i class="fa fa-beer"></i>
+                </div>
+                <div class="col-md-2">
+                    <h6>Our Product</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Solutions</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Sign in</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Our Team</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Highlights</a></li>
+                        <li><a href="">Investors</a></li>
+                        <li><a href="">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Outher Things</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="row">
