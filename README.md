@@ -7,5 +7,7 @@
 5. Hosted at: https://bs4-modern-landing-page-app.herokuapp.com/
 
 # Components:
-* Modified an ready-available template called "Album"
-* Link: http://v4-alpha.getbootstrap.com/examples/album/
+* Nothing fancy
+* Used "rem" instead of "px" everywhere in css
+* Lots of use of 'hidden-*-up' and 'hidden-*-down' classes
+* Some uses of 'pull-*-right' and 'pull-*-left' classes
