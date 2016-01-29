@@ -10,5 +10,5 @@
 * Nothing fancy
 * Used "rem" instead of "px" everywhere in css
 * Lots of use of **hidden - * - up** and **hidden - * - down** classes
-* Some uses of 'pull- * -right' and 'pull- * -left' classes
+* Some uses of **pull - * - right** and **pull-*-left** classes
 * The above classes make life SOOOO easy for writing responsive templates
