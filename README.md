@@ -12,3 +12,5 @@
 * Lots of use of **hidden-*-up** and **hidden-*-down** classes
 * Some uses of **pull-*-right** and **pull-*-left** classes
 * The above classes make life SOOOO easy for writing responsive templates
+
+Note: Koala used for SCSS file processing
