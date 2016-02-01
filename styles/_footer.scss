@@ -1,5 +1,7 @@
 
-footer {
+// CSS for my own custom footer
+
+#myFooter {
     background: #F0F0F0;
     color: white;
     padding: 10px;
@@ -7,16 +9,16 @@ footer {
     overflow: hidden;
 }
 
-footer div {
+#myFooter div {
     height: 60px;
     position: relative;
 }
 
-footer ul {
+#myFooter ul {
     padding-left: 20px;
 }
 
-footer li {
+#myFooter li {
     list-style: none;
     float: left;
     padding-right: 20px;
@@ -25,15 +27,16 @@ footer li {
     margin-top: 15px; 
 }
 
-footer a {
+#myFooter a {
     color: white;
 }
 
-footer a:hover {
+#myFooter a:hover {
     color: yellow !important
 }
 
-footer p {
+#myFooter p {
+    color: #6C6F73;
     font-size: 16px;
     text-align: right;
     padding-top: 20px;
@@ -41,12 +44,12 @@ footer p {
     margin-right: 20px;
 }
 
-footer i {
+#myFooter i {
     font-size: 30px;
     vertical-align: middle;
 }
 
-footer .links {
+#myFooter .links {
     min-width: 140px;
     max-width: 140px;
 }
@@ -54,7 +57,7 @@ footer .links {
 /* For all other sizes except desktop */
 @media (max-width: 1199px) {
 
-    footer {
+    #myFooter {
         height: 120px;
         text-align: center;
     }
@@ -63,17 +66,17 @@ footer .links {
         display: none;
     }
 
-    footer ul {
+    #myFooter ul {
         display: inline-block;
         text-align: center;
     }
-    
-    footer .links {
+
+    #myFooter .links {
         min-width: 50px;
         max-width: 50px;
     }
 
-    footer p {
+    #myFooter p {
         font-size: 18px;
         text-align: center;
         padding-top: 5px;
