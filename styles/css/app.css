@@ -2877,7 +2877,8 @@ section#feature-5 img {
   margin-top: 15px; }
 
 #myFooter a {
-  color: white; }
+  color: white;
+  font-size: 14px; }
 
 #myFooter a:hover {
   color: yellow !important; }
@@ -2891,12 +2892,11 @@ section#feature-5 img {
   margin-right: 20px; }
 
 #myFooter i {
-  font-size: 30px;
   vertical-align: middle; }
 
 #myFooter .links {
-  min-width: 140px;
-  max-width: 140px; }
+  min-width: 120px;
+  max-width: 120px; }
 
 /* For all other sizes except desktop */
 @media (max-width: 1199px) {
