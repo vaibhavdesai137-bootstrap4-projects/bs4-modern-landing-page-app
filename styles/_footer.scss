@@ -1,85 +1,17 @@
-
-// CSS for my own custom footer
-
-#myFooter {
-    background: #F0F0F0;
+footer {
+    background: #333;
     color: white;
-    padding: 10px;
-    height: 80px;
+    text-align: center;
     overflow: hidden;
+    margin-top: 20px;
 }
 
-#myFooter div {
-    height: 60px;
-    position: relative;
-}
-
-#myFooter ul {
-    padding-left: 20px;
-}
-
-#myFooter li {
-    list-style: none;
-    float: left;
-    padding-right: 20px;
-    position: relative;
-    height: 60px;
-    margin-top: 15px; 
-}
-
-#myFooter a {
+footer a {
+    margin: 15px 10px 15px 10px;
     color: white;
-    font-size: 14px;
 }
 
-#myFooter a:hover {
-    color: yellow !important
-}
-
-#myFooter p {
-    color: #6C6F73;
-    font-size: 16px;
-    text-align: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-right: 20px;
-}
-
-#myFooter i {
-    vertical-align: middle;
-}
-
-#myFooter .links {
-    min-width: 120px;
-    max-width: 120px;
-}
-
-/* For all other sizes except desktop */
-@media (max-width: 1199px) {
-
-    #myFooter {
-        height: 120px;
-        text-align: center;
-    }
-
-    .social-links {
-        display: none;
-    }
-
-    #myFooter ul {
-        display: inline-block;
-        text-align: center;
-    }
-
-    #myFooter .links {
-        min-width: 50px;
-        max-width: 50px;
-    }
-
-    #myFooter p {
-        font-size: 18px;
-        text-align: center;
-        padding-top: 5px;
-    }
-
+footer a:hover {
+    background-color: yellow !important;
+    color: #555 !important;
 }
